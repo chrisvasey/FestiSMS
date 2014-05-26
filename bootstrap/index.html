@@ -11,13 +11,16 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <title>FestiSMS - Helping you see the bands you have been waiting for.</title>
+    
+    <!-- Less Import -->
+    <script src="js/less-1.7.0.min.js"></script>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap.icon-large.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="home.css" rel="stylesheet">
+    <link href="css/home.less" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -31,7 +34,7 @@
 
       <div class="splash-back">
           <div class="col-xs-12 col-md-8" id="text-area"><h1 id="splash-text">When you're at a festival, the last thing you want to worry about is missing the band you have been waiting for all weekend..</h1>
-          <a>Let us worry for you</a>  
+          <a id="learn-more">Let us worry for you</a>  
           </div>
           <div class="col-xs-6 col-md-4">
             <img class="hidden-xs" id="phone" src="images/iphonewhite-cut.png" width="400px">
@@ -40,13 +43,29 @@
 <div class="row">
   <div class="col-xs-6 col-sm-4">
     <div class="featBox">
-      test<i class="icon-large icon-search"></i>
+      <i id="icons" class="fa fa-sun-o fa-5x fa-fw"></i>
+      <p>never get caught in the rain without one of those semi-waterproof plastic bags.<br>
+      opt in and out of weather alerts
+      </p>
     </div>
   </div>
-  <div class="col-xs-6 col-sm-4"><div class="featBox"></div></div>
+  <div class="col-xs-6 col-sm-4">
+    <div class="featBox">
+      <i id="icons" class="fa fa-mobile fa-5x fa-fw"></i>
+      <p>Don't worry about whatever brick you are rocking.. SMS works on almost every phone made after 1879.<br>
+      Need help choosing a phone?<br>
+      <a href="">Click Here</a>
+      </p>    
+    </div>
+  </div>
   <!-- Optional: clear the XS cols if their content doesn't match in height -->
   <div class="clearfix visible-xs"></div>
-  <div class="col-xs-6 col-sm-4"><div class="featBox"></div></div>
+  <div class="col-xs-6 col-sm-4">
+    <div class="featBox">
+      <i id="icons" class="fa fa-clock-o fa-5x fa-fw"></i>
+      <p>Stay up to date with lineup and time changes, just in case they unexpectedly add that band you love or a band you really wanted to see is no longer clashing. Opt in and out of SMS alerts</p>
+    </div>
+  </div>
 </div>
 
 

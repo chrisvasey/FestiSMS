@@ -16,17 +16,23 @@ body {
   margin: 0 auto;
   width: 100%;
   height: 500px;
+  overflow-y: hidden;
 }
 
-#phone {
+.phone {
 	margin-top: 88px;
-	bottom: 0px;
+    transition: margin-top 0.5s, ease;
+}
+
+.phone-load {
+    margin-top: 450px;
 }
 
 #splash-text {
 	margin-top: 184px;
 	color: #F1F2F4;
 	text-align: center;
+    overflow-y: hidden;
 }
 
 #text-area {
